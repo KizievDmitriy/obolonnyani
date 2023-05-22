@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="Next.js Conf 2022 Pictures" />
           <meta
             name="twitter:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="See pictures from Meeting Friends and the After Party."
           />
         </Head>
         <body className="bg-black antialiased">
