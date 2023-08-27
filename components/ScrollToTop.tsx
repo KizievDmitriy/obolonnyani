@@ -34,9 +34,11 @@ function scrollToTop() {
 
 	return (
 			<motion.button
-					className="fixed bottom-5 right-5 p-10 rounded-full bg-black/50 p-3 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white focus:outline-none"
+					className="fixed bottom-5 right-5 rounded-full bg-black/50 p-3 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white focus:outline-none"
 					variants={ScrollToTopContainerVariants}
 					initial="hide"
+					role="button"
+					aria-label="scroll to top button"	
 					animate={controls}
 					onClick={scrollToTop}>
 					<ChevronUpIcon className="h-6 w-6" />
