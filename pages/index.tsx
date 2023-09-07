@@ -12,7 +12,6 @@ import getBase64ImageUrl from '../utils/generateBlurPlaceholder'
 import type { ImageProps } from '../utils/types'
 import { useLastViewedPhoto } from '../utils/useLastViewedPhoto'
 import { ScrollToTopButton } from '../components/ScrollToTop'
-import { PlusIcon } from '@heroicons/react/24/outline'
 import { CldUploadButton } from 'next-cloudinary'
 
 const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
